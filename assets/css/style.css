@@ -1,0 +1,213 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus {
+    outline: 0 solid
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 800;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+    max-width: 1200px;
+}
+
+
+
+/*-------------------- Hero area css start --------------------*/
+
+.hero__area {
+    padding-top: 80px;
+    padding-bottom: 60px;
+    position: relative;
+    z-index: 1;
+    background-image: url(../img/hero_bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hero__area::after {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #DB4746;
+    clip-path: polygon(0 93%, 100% 7%, 100% 100%, 0% 100%);
+}
+
+.hero__area::before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: .3;
+    content: "";
+    z-index: -2;
+}
+
+.hero__main__blk {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+}
+
+.hero__content__blk>span {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.hero__content__blk h1 {
+    color: #fff;
+    font-size: 63px;
+    font-weight: 700;
+}
+
+.hero__content__blk h1 span {
+    display: block;
+    font-size: 80px;
+}
+
+.hero__content__blk ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.hero__content__blk ul li {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.hero__content__blk ul li svg {
+    width: 40px;
+    height: auto;
+    fill: #DB4746;
+}
+
+.hero__content__blk a {
+    width: 280px;
+    height: 60px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    text-align: center;
+    color: #2F346F;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    transition: .3s;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+.hero__content__blk a svg {
+    width: 18px;
+    height: auto;
+    fill: #2F346F;
+}
+
+.hero__content__blk a:hover {
+    position: relative;
+    transform: translateY(10px);
+}
+
+.hero__img__blk {
+    position: relative;
+    z-index: 1;
+}
+
+.hero__img__blk img {
+    width: 100%;
+}
+
+.hero__badge {
+    position: absolute;
+    left: -60px;
+    top: 60px;
+    max-width: 200px;
+    z-index: 2;
+}
+
+.hero__label {
+    position: absolute;
+    right: -20px;
+    top: -15px;
+    background-color: #fff;
+    z-index: 2;
+    padding: 15px 30px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.15);
+}
+
+.hero__label h4 {
+    margin-bottom: 0px;
+    font-size: 69px;
+    font-weight: 400;
+}
+
+.hero__label p {
+    margin-bottom: 0;
+    color: #2F346F;
+    font-size: 16px;
+    font-weight: 700;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    text-transform: uppercase;
+}
+
+/*-------------------- Hero area css end --------------------*/

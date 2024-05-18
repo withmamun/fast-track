@@ -1,0 +1,272 @@
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 960px;
+    }
+
+    .hero__content__blk h1 {
+        font-size: 45px;
+    }
+
+    .hero__content__blk h1 span {
+        font-size: 70px;
+    }
+
+    .hero__content__blk ul li {
+        font-size: 14px;
+    }
+
+    .hero__content__blk ul li svg {
+        width: 30px;
+    }
+
+    .hero__content__blk a {
+        width: 240px;
+        height: 54px;
+        font-size: 16px;
+        margin-top: 30px;
+    }
+
+    .hero__content__blk a svg {
+        width: 16px;
+    }
+
+    .hero__label h4 {
+        font-size: 52px;
+    }
+
+    .hero__label p {
+        font-size: 14px;
+    }
+
+    .hero__badge {
+        top: 40px;
+        max-width: 156px;
+    }
+
+}
+
+
+
+
+
+
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 720px;
+    }
+
+    .hero__content__blk>span {
+        font-size: 12px;
+        margin-bottom: 14px;
+    }
+
+    .hero__content__blk h1 {
+        font-size: 34px;
+    }
+
+    .hero__content__blk h1 span {
+        font-size: 54px;
+    }
+
+    .hero__content__blk ul li {
+        font-size: 12px;
+    }
+
+    .hero__content__blk ul li svg {
+        width: 26px;
+    }
+
+    .hero__content__blk ul {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+    }
+
+    .hero__content__blk a {
+        width: 200px;
+        height: 48px;
+        font-size: 14px;
+        gap: 6px;
+        margin-top: 34px;
+    }
+
+    .hero__content__blk a svg {
+        width: 14px;
+    }
+
+    .hero__content__blk a:hover {
+        transform: translateY(5px);
+    }
+
+    .hero__label h4 {
+        font-size: 40px;
+    }
+
+    .hero__label p {
+        font-size: 12px;
+    }
+
+    .hero__label {
+        right: -20px;
+        top: -20px;
+        padding: 10px 18px;
+        border-radius: 6px;
+    }
+
+    .hero__badge {
+        left: -35px;
+        top: 25px;
+        max-width: 120px;
+    }
+
+    .hero__area {
+        padding-top: 60px;
+        padding-bottom: 35px;
+    }
+
+}
+
+
+
+
+
+
+/* SM Small Device :320px. */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+
+    .hero__main__blk {
+        grid-template-columns: 1fr;
+        gap: 60px;
+    }
+
+    .hero__content__blk>span {
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+
+    .hero__content__blk h1 {
+        font-size: 26px;
+    }
+
+    .hero__content__blk h1 span {
+        font-size: 52px;
+    }
+
+    .hero__content__blk ul li {
+        font-size: 12px;
+    }
+
+    .hero__content__blk ul li svg {
+        width: 26px;
+    }
+
+    .hero__content__blk ul {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+    }
+
+    .hero__content__blk a {
+        width: 200px;
+        height: 48px;
+        font-size: 14px;
+        gap: 6px;
+        margin-top: 34px;
+    }
+
+    .hero__content__blk a svg {
+        width: 14px;
+    }
+
+    .hero__content__blk a:hover {
+        transform: translateY(5px);
+    }
+
+    .hero__label h4 {
+        font-size: 40px;
+    }
+
+    .hero__label p {
+        font-size: 12px;
+    }
+
+    .hero__label {
+        right: 0px;
+        top: -30px;
+        padding: 10px 18px;
+        border-radius: 6px;
+    }
+
+    .hero__badge {
+        left: -6px;
+        top: 6px;
+        max-width: 122px;
+    }
+
+    .hero__area {
+        padding-top: 40px;
+        padding-bottom: 35px;
+    }
+
+}
+
+
+
+
+
+
+/* SM Small Device :576px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 540px;
+    }
+
+    .hero__content__blk h1 {
+        font-size: 34px;
+    }
+
+    .hero__content__blk h1 span {
+        font-size: 68px;
+    }
+
+    .hero__content__blk>span {
+        font-size: 14px;
+    }
+
+    .hero__content__blk ul li {
+        font-size: 14px;
+    }
+
+    .hero__badge {
+        max-width: 180px;
+    }
+
+    .hero__label h4 {
+        font-size: 52px;
+    }
+
+    .hero__label p {
+        font-size: 14px;
+    }
+
+}
